@@ -1,0 +1,86 @@
+@media screen and (min-width:800px) and (max-width: 1100px) {
+  .Navbar_two_ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .Navbar_One_Cost {
+    display: none;
+  }
+
+  .Midd {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .Main_allStyle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width: 800px) {
+  .Navbar_two_ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .Navbar_One_Cost {
+    display: none;
+  }
+
+  .Midd {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Navbar_btnImg_img {
+    width: 550px;
+    height: 70px;
+  }
+
+  .Main_allStyle {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width: 600px) {
+  .Navbar_two_ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Navbar_One_Cost {
+    display: none;
+  }
+
+  .Navbar {
+    display: block;
+  }
+
+  .Navbar_One_Left {
+    margin-top: 20px;
+  }
+
+  .Navbar_One_Title {
+    margin: 10px auto;
+  }
+
+  .Midd {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 50px;
+  }
+
+  .Main_allStyle {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+}

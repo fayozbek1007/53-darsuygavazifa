@@ -1,0 +1,37 @@
+.Midd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    z-index: -2;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.MidNav_AlsoStyle {
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.Mid_alsoStyle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 3px solid #EB5569;
+}
+
+.Midd_Info {
+    background-color: #F6F6F9;
+    padding: 20px;
+}
+
+.Midd_Info_Title_text {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.Midd_span {
+    font-size: 22px;
+    margin-left: 20px;
+    color: #EB5569;
+}

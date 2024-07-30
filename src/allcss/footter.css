@@ -1,0 +1,50 @@
+.Fotter {
+    background-color: #295093;
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+}
+
+.Foter_style {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.Fotter_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px 0;
+    border-bottom: 3px solid #081f47;
+}
+
+.Fotter_top_left {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.Fotter_top_botton {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.Fotter_top_botton_one_title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Fotter_top_botton_one_text{
+    margin-top: 10px;
+}
+
+.Fotter_top_botton_two_text{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+}
+.Fotter_top_botton_one_text{
+    font-size: 18px;
+    font-weight: 500;
+}

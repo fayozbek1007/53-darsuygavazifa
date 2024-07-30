@@ -1,0 +1,31 @@
+.Main_allStyle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Main_info {
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+.Main_info_card_phota_imgst {
+    width: 100%;
+    height: 100%;
+}
+
+.Main_info_card_things {
+    padding: 5px 10px;
+}
+
+.Main_info_card_things_text {
+    font-size: 20px;
+    font-weight: 600;
+}
+.Main_info_card_things_text_date{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.416);
+}

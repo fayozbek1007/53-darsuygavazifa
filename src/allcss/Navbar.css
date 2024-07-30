@@ -1,0 +1,97 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavbarJsx {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.Navbar_One {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.Navbar_One_Title {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 0.1px solid #295091;
+}
+
+.Navbar_One_Title_Name {
+    color: #295091;
+}
+
+.Navbar_One_Left {
+    background-color: #1E96C8;
+    padding: 7px 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Navbar_One_Left_img {
+    margin-right: 10px;
+}
+
+.Navbar_One_Left_text {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Navbar_One_Cost {
+    display: flex;
+    gap: 20px;
+}
+
+.Navbar_One_Cost_Name_Span {
+    color: rgba(0, 0, 255, 0.76);
+    font-weight: 750;
+    margin-right: 5px;
+}
+
+.Navbar_One_Cost_Name {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.488);
+}
+
+.Navbar_two {
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid #295091;
+    border-radius: 10px;
+}
+
+.Navbar_two_ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Navbar_two_ul_li_link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.559);
+    font-weight: 600;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.Navbar_two_ul_li_link:hover {
+    color: #1E96C8;
+}
+
+.Navbar_btnImg {
+    margin-top: 30px;
+}
+
+.Navbar_btnImg_img {
+    width: 100%;
+    height: auto;
+}
