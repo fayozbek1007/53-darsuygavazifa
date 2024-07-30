@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Fotter = () => {
+    console.log("CHsnged");
     return (
         <div className='Fotter'>
             <div className='Foter_style'>
